@@ -74,7 +74,6 @@ public class ChatServer_Two implements Runnable {
                         temp_out.println(username + ": " + message); //prints the message to the clients
                         temp_out.flush();
                         System.out.println("Sent for " + temp_sock.getLocalAddress().getHostName());
-                        System.out.println("Azeez is my name");
                     }
                     }
                 }
